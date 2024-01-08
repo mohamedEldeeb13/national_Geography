@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3C6D22F2B40384C0031F1A1 /* drawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C6D22E2B40384C0031F1A1 /* drawer.swift */; };
+		D3C6D2312B403AE70031F1A1 /* covers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C6D2302B403AE70031F1A1 /* covers.swift */; };
+		D3C6D2342B403B180031F1A1 /* coverData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C6D2332B403B180031F1A1 /* coverData.swift */; };
+		D3C6D2362B4043110031F1A1 /* controlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C6D2352B4043110031F1A1 /* controlView.swift */; };
+		D3C6D2382B405C4E0031F1A1 /* panalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C6D2372B405C4E0031F1A1 /* panalView.swift */; };
 		D3CC2AC12B3C632F00D61BEB /* national_GeographyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CC2AC02B3C632F00D61BEB /* national_GeographyApp.swift */; };
 		D3CC2AC32B3C632F00D61BEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CC2AC22B3C632F00D61BEB /* ContentView.swift */; };
 		D3CC2AC52B3C633100D61BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CC2AC42B3C633100D61BEB /* Assets.xcassets */; };
@@ -14,11 +19,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D3C6D22E2B40384C0031F1A1 /* drawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawer.swift; sourceTree = "<group>"; };
+		D3C6D2302B403AE70031F1A1 /* covers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = covers.swift; sourceTree = "<group>"; };
+		D3C6D2332B403B180031F1A1 /* coverData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coverData.swift; sourceTree = "<group>"; };
+		D3C6D2352B4043110031F1A1 /* controlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controlView.swift; sourceTree = "<group>"; };
+		D3C6D2372B405C4E0031F1A1 /* panalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = panalView.swift; sourceTree = "<group>"; };
 		D3CC2ABD2B3C632F00D61BEB /* national_Geography.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = national_Geography.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CC2AC02B3C632F00D61BEB /* national_GeographyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = national_GeographyApp.swift; sourceTree = "<group>"; };
 		D3CC2AC22B3C632F00D61BEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3CC2AC42B3C633100D61BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3CC2AC72B3C633100D61BEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3CC2ACE2B3C653D00D61BEB /* national-Geography-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "national-Geography-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +43,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3C6D22B2B40381C0031F1A1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D3CC2AC02B3C632F00D61BEB /* national_GeographyApp.swift */,
+				D3CC2AC22B3C632F00D61BEB /* ContentView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D3C6D22C2B4038240031F1A1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D3C6D2302B403AE70031F1A1 /* covers.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D3C6D22D2B4038330031F1A1 /* componenet */ = {
+			isa = PBXGroup;
+			children = (
+				D3C6D22E2B40384C0031F1A1 /* drawer.swift */,
+				D3C6D2352B4043110031F1A1 /* controlView.swift */,
+				D3C6D2372B405C4E0031F1A1 /* panalView.swift */,
+			);
+			path = componenet;
+			sourceTree = "<group>";
+		};
+		D3C6D2322B403B0C0031F1A1 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				D3C6D2332B403B180031F1A1 /* coverData.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
 		D3CC2AB42B3C632F00D61BEB = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +97,11 @@
 		D3CC2ABF2B3C632F00D61BEB /* national_Geography */ = {
 			isa = PBXGroup;
 			children = (
-				D3CC2AC02B3C632F00D61BEB /* national_GeographyApp.swift */,
-				D3CC2AC22B3C632F00D61BEB /* ContentView.swift */,
+				D3C6D2322B403B0C0031F1A1 /* data */,
+				D3C6D22D2B4038330031F1A1 /* componenet */,
+				D3C6D22C2B4038240031F1A1 /* model */,
+				D3C6D22B2B40381C0031F1A1 /* view */,
+				D3CC2ACE2B3C653D00D61BEB /* national-Geography-Info.plist */,
 				D3CC2AC42B3C633100D61BEB /* Assets.xcassets */,
 				D3CC2AC62B3C633100D61BEB /* Preview Content */,
 			);
@@ -138,6 +187,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3CC2AC32B3C632F00D61BEB /* ContentView.swift in Sources */,
+				D3C6D2312B403AE70031F1A1 /* covers.swift in Sources */,
+				D3C6D2362B4043110031F1A1 /* controlView.swift in Sources */,
+				D3C6D22F2B40384C0031F1A1 /* drawer.swift in Sources */,
+				D3C6D2342B403B180031F1A1 /* coverData.swift in Sources */,
+				D3C6D2382B405C4E0031F1A1 /* panalView.swift in Sources */,
 				D3CC2AC12B3C632F00D61BEB /* national_GeographyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,9 +329,9 @@
 				DEVELOPMENT_TEAM = Y9WFT4L662;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "national-Geography-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,9 +358,9 @@
 				DEVELOPMENT_TEAM = Y9WFT4L662;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "national-Geography-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
